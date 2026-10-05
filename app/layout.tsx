@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: "/" },
-  openGraph: { type: "website", url: "/", siteName: "Ciphez", title, description, locale: "en_NG" },
-  twitter: { card: "summary_large_image", title, description },
+  openGraph: { type: "website", url: "/", siteName: "Ciphez", title, description, locale: "en_NG", images: [{ url: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/og.png`, width: 1200, height: 630, alt: "Nwadiaro Miracle Chukwuma, AI/ML Engineer", type: "image/png" }] },
+  twitter: { card: "summary_large_image", title, description, images: [`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/og.png`] },
 };
 
 export const viewport: Viewport = { themeColor: "#000000", width: "device-width", initialScale: 1 };
