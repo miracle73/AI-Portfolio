@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; color-scheme: dark; }
+body { background: #000000; }
+a:focus-visible, button:focus-visible { outline: 2px solid #ff7a1a; outline-offset: 2px; }
+.sec { @apply mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20; }
+.label { @apply font-mono text-xs uppercase tracking-[0.2em] text-accent; }
