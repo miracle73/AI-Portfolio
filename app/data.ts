@@ -69,7 +69,7 @@ export const projects: Project[] = [
       "Notifications run through a rate limited queue with backoff, retries and a dead letter queue, and a reconciliation job keeps payments and bookings in agreement.",
     ],
     stack: ["WhatsApp API", "Automation pipelines", "Job queues", "Payment webhooks", "TypeScript"],
-    live: "https://primlook.com",
+    live: "https://primlook.com/",
   },
 ];
 
