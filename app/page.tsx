@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <header className="sticky top-0 z-30 border-b border-line bg-ink/90 backdrop-blur">
         <nav aria-label="Main" className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
-          <a href="#top" className="font-mono text-sm font-semibold text-accent">ciphez</a>
+          <a href="#top" className="font-mono text-sm font-semibold text-accent">Nwadiaro Miracle</a>
           <ul className="hidden gap-6 text-sm text-mute sm:flex">
             {nav.map(([t, h]) => (
               <li key={h}><a href={h} className="hover:text-white">{t}</a></li>
@@ -30,7 +30,7 @@ export default function Home() {
       <main id="top">
         <section className="sec grid items-center gap-10 md:grid-cols-[1fr_auto]" aria-labelledby="hero-title">
           <div>
-            <p className="label">Lagos, Nigeria · 5 years</p>
+            <p className="label">Uyo, Nigeria · 5 years</p>
             <h1 id="hero-title" className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Nwadiaro Miracle Chukwuma</h1>
             <p className="mt-2 text-xl text-mint">AI/ML Engineer</p>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-mute">
